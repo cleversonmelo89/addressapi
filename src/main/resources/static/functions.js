@@ -112,15 +112,17 @@ function alterar(){
 	var json = createJson();
 	json["id"] = document.getElementById('id').value;
 	var response = ""
-	xhr.open("PUT", url, true);
-	xhr.setRequestHeader("Content-Type", "application/json");
-	xhr.onreadystatechange = function () {
-	    if (xhr.readyState === 4 && xhr.status === 200) {
-	        alert("Cadastro Alterado com Sucesso!");
-	        limpar();
-	    }
-	};
-	xhr.send(JSON.stringify(json));
+	if(validateField(json) === true){
+		xhr.open("PUT", url, true);
+		xhr.setRequestHeader("Content-Type", "application/json");
+		xhr.onreadystatechange = function () {
+		    if (xhr.readyState === 4 && xhr.status === 200) {
+		        alert("Cadastro Alterado com Sucesso!");
+		        limpar();
+		    }
+		};
+		xhr.send(JSON.stringify(json));
+	}
 }
 
 function excluir(){

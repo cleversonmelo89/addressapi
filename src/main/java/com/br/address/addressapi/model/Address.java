@@ -31,7 +31,9 @@ public class Address {
 	private String estado;
 	
 	private String bairro;
+	
 	private String complemento;
+	
 	public long getId() {
 		return id;
 	}
