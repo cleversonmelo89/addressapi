@@ -4,7 +4,7 @@ Para este  projeto é necessário utilizar o banco de dados MySql para inclusão
 
 #Versões utilizadas
 
--Java v1.8
+-Java v1.8<br>
 -Framework SpringBoot v1.5.16
 -Maven para gerenciar as dependencias do projeto
 -Utilização JPA para gerenciamento do repositório
