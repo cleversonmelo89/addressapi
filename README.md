@@ -20,7 +20,7 @@ http://localhost:8080/address/{id}
 <h2>POST</h2>
 http://localhost:8080/address/
 <p>Body</p>
-```json
+```
 {
   "rua": "rua",
   "numero": 0,
@@ -34,7 +34,7 @@ http://localhost:8080/address/
 <h2>PUT</h2>
 http://localhost:8080/address
 <p>Body</p>
-```json
+```
 {
   "id": "id"
   "rua": "rua",
@@ -59,7 +59,7 @@ http://localhost:8080/address/
 <p>Apaga o registro passando o json inteiro</p>
 http://localhost:8080/address/
 <p>Body</p>
-```json
+```
 {
   "id": "id"
   "rua": "rua",
