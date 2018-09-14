@@ -20,7 +20,7 @@ http://localhost:8080/address/{id}
 <h2>POST</h2>
 http://localhost:8080/address/
 <p>Body</p>
-```
+
 {
   "rua": "rua",
   "numero": 0,
@@ -30,11 +30,11 @@ http://localhost:8080/address/
   "bairro": "bairro",
   "complemento": "complemento"
 }
-```
+
 <h2>PUT</h2>
 http://localhost:8080/address
 <p>Body</p>
-```
+
 {
   "id": "id"
   "rua": "rua",
@@ -45,7 +45,7 @@ http://localhost:8080/address
   "bairro": "bairro",
   "complemento": "complemento"
 }
-```
+
 
 <h2>DELETE</h2>
 http://localhost:8080/address/{id}
@@ -59,7 +59,7 @@ http://localhost:8080/address/
 <p>Apaga o registro passando o json inteiro</p>
 http://localhost:8080/address/
 <p>Body</p>
-```
+
 {
   "id": "id"
   "rua": "rua",
@@ -70,7 +70,6 @@ http://localhost:8080/address/
   "bairro": "bairro",
   "complemento": "complemento"
 }
-```
 
 
 
