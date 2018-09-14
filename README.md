@@ -20,6 +20,7 @@ http://localhost:8080/address/{id}
 <h2>POST</h2>
 http://localhost:8080/address/
 <p>Body</p>
+```json
 {
   "rua": "rua",
   "numero": 0,
@@ -29,10 +30,11 @@ http://localhost:8080/address/
   "bairro": "bairro",
   "complemento": "complemento"
 }
-
+```
 <h2>PUT</h2>
 http://localhost:8080/address
 <p>Body</p>
+```json
 {
   "id": "id"
   "rua": "rua",
@@ -43,19 +45,21 @@ http://localhost:8080/address
   "bairro": "bairro",
   "complemento": "complemento"
 }
+```
 
 <h2>DELETE</h2>
 http://localhost:8080/address/{id}
 
 <h1>Disponivel porém não utilizado no FrontEnd:</h1>
-<p>Retorna uma lista com todos os endereços.</p>
 <h2>GET</h2>
+<p>Retorna uma lista com todos os endereços.</p>
 http://localhost:8080/address/
 
-<p>Apaga o registro passando o json inteiro</p>
 <h2>DELETE</h2>
+<p>Apaga o registro passando o json inteiro</p>
 http://localhost:8080/address/
 <p>Body</p>
+```json
 {
   "id": "id"
   "rua": "rua",
@@ -66,7 +70,7 @@ http://localhost:8080/address/
   "bairro": "bairro",
   "complemento": "complemento"
 }
-
+```
 
 
 
